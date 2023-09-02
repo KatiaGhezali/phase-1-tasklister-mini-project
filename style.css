@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(29, 66, 122), rgb(87, 125, 196));
 }
 
 button {
@@ -21,9 +21,10 @@ button {
   align-items: center;
   flex-direction: column;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgb(255, 255, 255);
   padding: 15px 20px 18px 18px;
-  border-radius: 5px;
+  margin: 60px 450px 100px 450px;
+  border-radius: 10px;
   box-shadow: 2px 5px 5px #333;
 }
 
@@ -34,4 +35,23 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#add {
+  background-color: #b4402b;
+  color: white;
+  border-radius: 15px;
+  padding: 7px 13px 7px 13px;
+  font-weight: bold;
+  
+}
+
+#new_task_description {
+  padding-top: 7px ;
+  padding-bottom: 7px ;
+  border-radius: 15px;
+
+  
+
+
 }
